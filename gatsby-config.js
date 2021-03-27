@@ -1,6 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "portfolio",
+    title: 'Yahya Jideh',
+    description: '',
+    siteUrl: 'https://yahyajideh.com',
+    twitterUsername: '@yahyajideh',
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-emotion',
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: { name: 'posts', path: 'posts' },
+    },
+  ],
 };

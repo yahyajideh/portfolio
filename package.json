@@ -3,20 +3,37 @@
   "version": "1.0.0",
   "private": true,
   "description": "portfolio",
-  "author": "yahyajideh",
+  "author": "@yahyajideh",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "test": "jest",
+    "clean": "gatsby clean",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
+    "format:check": "prettier --ignore-path ./.gitignore --check \"./**/*.{html,json,js,ts,css}\"",
+    "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
+    "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\""
   },
   "dependencies": {
     "gatsby": "^3.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlengstorf/frontendmasters-gatsby"
   }
 }

@@ -1,6 +1,6 @@
 <p align="center">
   <a href="www.yahyajideh.com">
-    <img alt="Gatsby" src="src/image/../images/readme-logo.png" width="50%" />
+    <img alt="Yahya Jideh" src="src/image/../images/readme-logo.png" width="50%" />
   </a>
 </p>
 <h1 align="center">

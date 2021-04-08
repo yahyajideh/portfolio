@@ -8,13 +8,13 @@ const CyanHighlight = styled.span`
 
 const Hero = () => {
   return (
-    <div>
+    <section>
       <h1>
         Hi, I'm <CyanHighlight>Yahya Jideh</CyanHighlight>.
       </h1>
       <h2>I love to build things.</h2>
       <p>I also love to create engaging ui and memorable products.</p>
-    </div>
+    </section>
   );
 };
 

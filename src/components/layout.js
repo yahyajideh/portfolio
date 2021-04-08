@@ -1,11 +1,12 @@
 import React from 'react';
 import GlobalStyle from '../styles/GlobalStyle';
+import Nav from './nav';
 
 const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle />
-      <header></header>
+      <Nav></Nav>
       <main>{children}</main>
     </>
   );

@@ -13,7 +13,7 @@ const SocialIcons = () => {
       <a href="https://instagram.com/yahyajideh" target="_blank">
         <InstagramIcon />
       </a>
-      <a href="https://linkedin.com/yahyajideh" target="_blank">
+      <a href="https://www.linkedin.com/in/yahyajideh/" target="_blank">
         <LinkedInIcon />
       </a>
       <a href="https://github.com/yahyajideh" target="_blank">

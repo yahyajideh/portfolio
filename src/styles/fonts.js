@@ -1,24 +1,24 @@
 import { css } from '@emotion/react';
 
-import GreycliffBoldwoff from '@fonts/GreyCliff/Greycliffcf-bold-webfont.woff';
-import GreycliffBoldwoff2 from '@fonts/GreyCliff/Greycliffcf-bold-webfont.woff2';
+import GreycliffBoldwoff from '@fonts/Greycliff/Greycliffcf-bold-webfont.woff';
+import GreycliffBoldwoff2 from '@fonts/Greycliff/Greycliffcf-bold-webfont.woff2';
 
-import GreycliffDemiboldwoff from '@fonts/GreyCliff/Greycliffcf-demibold-webfont.woff';
-import GreycliffDemiboldwoff2 from '@fonts/GreyCliff/Greycliffcf-demibold-webfont.woff2';
+import GreycliffDemiboldwoff from '@fonts/Greycliff/Greycliffcf-demibold-webfont.woff';
+import GreycliffDemiboldwoff2 from '@fonts/Greycliff/Greycliffcf-demibold-webfont.woff2';
 
-import GreycliffExtraboldwoff from '@fonts/GreyCliff/Greycliffcf-extrabold-webfont.woff';
-import GreycliffExtraboldwoff2 from '@fonts/GreyCliff/Greycliffcf-extrabold-webfont.woff2';
+import GreycliffExtraboldwoff from '@fonts/Greycliff/Greycliffcf-extrabold-webfont.woff';
+import GreycliffExtraboldwoff2 from '@fonts/Greycliff/Greycliffcf-extrabold-webfont.woff2';
 
-import GreycliffHeavywoff from '@fonts/GreyCliff/Greycliffcf-heavy-webfont.woff';
+import GreycliffHeavywoff from '@fonts/Greycliff/Greycliffcf-heavy-webfont.woff';
 
-import GreycliffLightwoff from '@fonts/GreyCliff/Greycliffcf-light-webfont.woff';
-import GreycliffLightwoff2 from '@fonts/GreyCliff/Greycliffcf-light-webfont.woff2';
+import GreycliffLightwoff from '@fonts/Greycliff/Greycliffcf-light-webfont.woff';
+import GreycliffLightwoff2 from '@fonts/Greycliff/Greycliffcf-light-webfont.woff2';
 
-import GreycliffMediumwoff from '@fonts/GreyCliff/Greycliffcf-medium-webfont.woff';
-import GreycliffMediumwoff2 from '@fonts/GreyCliff/Greycliffcf-medium-webfont.woff2';
+import GreycliffMediumwoff from '@fonts/Greycliff/Greycliffcf-medium-webfont.woff';
+import GreycliffMediumwoff2 from '@fonts/Greycliff/Greycliffcf-medium-webfont.woff2';
 
-import GreycliffRegularwoff from '@fonts/GreyCliff/Greycliffcf-regular-webfont.woff';
-import GreycliffRegularwoff2 from '@fonts/GreyCliff/Greycliffcf-regular-webfont.woff2';
+import GreycliffRegularwoff from '@fonts/Greycliff/Greycliffcf-regular-webfont.woff';
+import GreycliffRegularwoff2 from '@fonts/Greycliff/Greycliffcf-regular-webfont.woff2';
 
 const GreyclifNormalWeights = {
   300: [GreycliffLightwoff, GreycliffLightwoff2],

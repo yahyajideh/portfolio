@@ -75,7 +75,8 @@ const GlobalStyle = () => (
 
         &:hover {
           color: #fff;
-          background-color: ${Colors.purple};
+          background-color: ${Colors.strawberry};
+          box-shadow: 6px 6px ${Colors.purple};
           transform: translate(0px, 0px);
           box-shadow: none;
           cursor: pointer;
@@ -110,14 +111,17 @@ const GlobalStyle = () => (
       .social-icons {
         & svg {
           margin-right: 10px;
-          width: 80px;
+          width: 60px;
+        }
+      }
+
+      @media only screen and (max-width: 1200px) {
+        section {
+          padding-left: 70px;
         }
       }
 
       @media only screen and (max-width: 900px) {
-        section {
-          padding-left: 70px;
-        }
         h1,
         h2 {
           font-size: 3rem;
@@ -129,8 +133,19 @@ const GlobalStyle = () => (
         .social-icons {
           & svg {
             margin-right: 10px;
-            width: 65px;
+            width: 45px;
           }
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        h1,
+        h2 {
+          font-size: 2rem;
+          margin-bottom: 0.25rem;
+        }
+        p {
+          font-size: 1rem;
         }
       }
     `}

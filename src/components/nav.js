@@ -10,14 +10,14 @@ const Nav = () => {
             <LogoYahyaJideh />
           </a>
           <ul>
-            <li>
+            {/* <li>
               <a href="#">about</a>
             </li>
             <li>
               <a href="#">work</a>
-            </li>
+            </li> */}
             <li>
-              <a href="#">contact</a>
+              <a href="mailto:yahya.jideh@gmail.com">contact</a>
             </li>
           </ul>
         </nav>

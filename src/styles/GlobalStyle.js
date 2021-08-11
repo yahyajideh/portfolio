@@ -1,14 +1,11 @@
 import { Global, css } from '@emotion/react';
 import { Colors } from './variables';
-// import Fonts from './fonts';
+import Fonts from './fonts';
 
 const GlobalStyle = () => (
   <Global
     styles={css`
-      @font-face {
-        font-family: 'Greycliff';
-        src: url('../fonts/Greycliff/greycliffcf-bold-webfont.woff2');
-      }
+      ${Fonts};
 
       * {
         box-sizing: border-box;
@@ -17,7 +14,7 @@ const GlobalStyle = () => (
       }
 
       body {
-        font-family: 'Arial';
+        font-family: 'GreyCliff';
         height: 100vh;
         background-color: ${Colors.bg};
         border: 15px solid ${Colors.purple};
@@ -69,6 +66,20 @@ const GlobalStyle = () => (
         margin-left: 40px;
         text-decoration: none;
         color: ${Colors.bodyText};
+
+        padding: 0.75rem;
+        box-shadow: 6px 6px ${Colors.purple};
+        background-color: ${Colors.strawberry};
+        transform: translate(-4px, -4px);
+        transition: transform 0.2s, color 0.2s;
+
+        &:hover {
+          color: #fff;
+          background-color: ${Colors.purple};
+          transform: translate(0px, 0px);
+          box-shadow: none;
+          cursor: pointer;
+        }
       }
 
       section {
@@ -77,15 +88,50 @@ const GlobalStyle = () => (
         justify-content: center;
         flex-direction: column;
         align-content: center;
+        padding-left: 12rem;
       }
 
       h1,
       h2 {
-        font-size: 4rem;
+        font-size: 6rem;
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        color: ${Colors.h2};
       }
 
       p {
         font-size: 1.5rem;
+        color: ${Colors.caption};
+        margin-bottom: 1.5rem;
+      }
+
+      .social-icons {
+        & svg {
+          margin-right: 10px;
+          width: 80px;
+        }
+      }
+
+      @media only screen and (max-width: 900px) {
+        section {
+          padding-left: 70px;
+        }
+        h1,
+        h2 {
+          font-size: 3rem;
+          margin-bottom: 0.25rem;
+        }
+        p {
+          font-size: 1.25rem;
+        }
+        .social-icons {
+          & svg {
+            margin-right: 10px;
+            width: 65px;
+          }
+        }
       }
     `}
   />

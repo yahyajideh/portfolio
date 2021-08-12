@@ -148,6 +148,23 @@ const GlobalStyle = () => (
           font-size: 1rem;
         }
       }
+
+      @media only screen and (max-width: 390px) {
+        h1,
+        h2 {
+          font-size: 2rem;
+          margin-bottom: 0.25rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+        .social-icons {
+          & svg {
+            margin-right: 10px;
+            width: 35px;
+          }
+        }
+      }
     `}
   />
 );

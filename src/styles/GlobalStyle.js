@@ -147,6 +147,12 @@ const GlobalStyle = () => (
         p {
           font-size: 1rem;
         }
+        .social-icons {
+          & svg {
+            margin-right: 5px;
+            width: 35px;
+          }
+        }
       }
 
       @media only screen and (max-width: 390px) {
@@ -160,7 +166,7 @@ const GlobalStyle = () => (
         }
         .social-icons {
           & svg {
-            margin-right: 10px;
+            margin-right: 5px;
             width: 35px;
           }
         }
